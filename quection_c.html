@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>creating a form using html</title>
+		<style>
+				body{
+				background-color:#eef;
+				}
+				h1{
+				font-family:Engravers MT;
+				padding-top:20px;
+				padding-bottom:30px;
+				}
+				input[type="submit"],input[type="reset"]{
+				height:30px;
+				width:110px;
+				font-size:20px;
+				margin-top:20px;
+				border-radius:3px;
+				border-width:1px;
+				}
+				input:hover[type="submit"]{
+				background-color:green;
+				color:#fff;
+				border-width:none;
+				border-radius:3px;
+				}
+				input:hover[type="reset"]{
+				background-color:red;
+				color:#fff;
+				border-width:0px;
+				border-radius:5px;
+				}
+		       .table{
+			   font-size:23px;
+			   }
+			   input[type="text"],input[type="email"],input[type="number"],input[type="data"],input[type="tel"]{
+			   height:29px;
+			   width:280px;
+			   }
+			   
+		
+		</style>
+	</head>
+<body>
+
+	 <center>	<h1>Fill the Form</h1> 
+		
+		<form>
+		    <table class="table">
+			<tr>
+				<td>Name* &ensp;</td><td><input type="text"required></td>
+			</tr>
+			<tr>
+				<td>Father Name* &ensp;</td><td><input type="text"required></td>
+			</tr>
+			<tr>
+				<td>Mother Name* &ensp;&ensp;</td><td><input type="text"required></td>
+			</tr>
+			<tr>
+				<td> D.O.B* &nbsp; &ensp;</td><td><input type="date"required></td>
+			</tr>
+			<tr>
+				<td> Mo Number* &nbsp; &ensp;+91</td><td><input type="tel"required></td>
+			</tr>
+			<tr>
+				<td>E-mail* Id&ensp;</td><td><input type="email"required></td>
+			</tr>
+			<tr>
+				<td>Address* &ensp;</td><td><input type="text"required></td>
+			</tr>
+			<tr>
+				<td>Pin Code*&ensp;</td><td><input type="number"required></td>
+			</tr>
+			<tr>
+				<td>Favorite Subject* &ensp;</td><td><input type="text"required></td>
+			</tr>
+			<tr>
+				<td>Movie and Singer</td><td><input type="number"required></td>
+			</tr>
+		   </table>
+		   <br>
+		   <input type="reset">&ensp;<input type="submit">
+		</form>
+		</center>
+
+</body>
+</html>
